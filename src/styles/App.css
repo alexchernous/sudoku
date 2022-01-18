@@ -1,0 +1,15 @@
+.app {
+  text-align: center;
+  display: block;
+}
+
+.appHeader {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.game {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}

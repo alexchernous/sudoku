@@ -1,0 +1,59 @@
+.sudoku {
+  margin: 50px;
+}
+
+.cell {
+  height: 70px;
+  width: 70px;
+  border-color: rgb(194, 194, 194);
+  border-style: solid;
+  border-width: 1px;
+  font-size: 50px;
+  cursor: cell;
+}
+
+.thickBottom {
+  border-bottom-color: black;
+  border-bottom-width: 3px;
+}
+
+.thickRight {
+  border-right-color: black;
+  border-right-width: 3px;
+}
+
+.row {
+  display: flex;
+}
+
+.highlightCells {
+  background-color: rgba(255, 254, 205, 0.555);
+}
+
+.selectedCell {
+  background-color: rgba(255, 251, 132, 0.883);
+  color: blue;
+}
+
+.highlightCollision {
+  color: red;
+}
+
+.smallNums {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 16px;
+  color: grey;
+}
+
+.smallNum {
+  padding: 1px;
+  width: 20px;
+  height: 20px;
+}
+
+.highlightSmallNum {
+  color: black;
+  background-color: yellow;
+}
